@@ -1,0 +1,24 @@
+.indicator {
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+}
+
+.indicator:empty {
+  display: none;
+}
+
+.input {
+  margin-bottom: 0.5em;
+}
+
+.start-button {
+  margin-bottom: 0.5em;
+}
+
+.start-button,
+.stop-button {
+  height: 2em;
+  width: 100%;
+  cursor: pointer;
+}

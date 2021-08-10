@@ -1,0 +1,12 @@
+{
+  "name": "new tab timer",
+  "version": "1.0",
+  "description": "Opens a new tab when the timer exceeds",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
